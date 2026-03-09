@@ -112,8 +112,8 @@ No providers.
 
 | Name | Source | Version |
 |------|--------|---------|
-| <a name="module_global_resources"></a> [global\_resources](#module\_global\_resources) | ./modules/global_resources | ~>0.0.5 |
-| <a name="module_regional_resources"></a> [regional\_resources](#module\_regional\_resources) | ./modules/regional_resources | ~>0.0.13 |
+| <a name="module_global_resources"></a> [global\_resources](#module\_global\_resources) | ./modules/global_resources | n/a |
+| <a name="module_regional_resources"></a> [regional\_resources](#module\_regional\_resources) | ./modules/regional_resources | n/a |
 
 ## Resources
 
@@ -125,6 +125,7 @@ No resources.
 |------|-------------|------|---------|:--------:|
 | <a name="input_account_cidr"></a> [account\_cidr](#input\_account\_cidr) | The CIDR block for the AWS account. | `string` | `"10.0.0.0/19"` | no |
 | <a name="input_aws_account_id"></a> [aws\_account\_id](#input\_aws\_account\_id) | The AWS Account ID being configured | `string` | n/a | yes |
+| <a name="input_aws_account_name"></a> [aws\_account\_name](#input\_aws\_account\_name) | The name of the AWS account being configured | `string` | n/a | yes |
 | <a name="input_enabled_regions"></a> [enabled\_regions](#input\_enabled\_regions) | List of regions to enable resources in | `list(string)` | <pre>[<br/>  "us-east-1",<br/>  "us-west-2",<br/>  "ap-south-1",<br/>  "ap-southeast-1",<br/>  "us-east-2"<br/>]</pre> | no |
 
 ## Outputs

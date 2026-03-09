@@ -1,7 +1,7 @@
 variable "account_cidr" {
   description = "The CIDR block for the AWS account."
   type        = string
-  default = "10.0.0.0/19"
+  default     = "10.0.0.0/19"
 }
 
 variable "enabled_regions" {
@@ -13,5 +13,10 @@ variable "enabled_regions" {
 
 variable "aws_account_id" {
   description = "The AWS Account ID being configured "
+  type        = string
+}
+
+variable "aws_account_name" {
+  description = "The name of the AWS account being configured"
   type        = string
 }

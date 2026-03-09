@@ -10,5 +10,5 @@ output "enabled_regions" {
 
 output "vpc_cidr_blocks" {
   description = "The CIDR blocks assigned to each region"
-  value = local.regional_cidrs
+  value       = local.regional_cidrs
 }
