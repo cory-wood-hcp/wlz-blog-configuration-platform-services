@@ -8,6 +8,6 @@ resource "aws_waf_ipset" "ipset" {
 
   ip_set_descriptors {
     type  = "IPV4"
-    value = "10.16.16.0/16"
+    value = "10.16.16.0/20"
   }
 }
